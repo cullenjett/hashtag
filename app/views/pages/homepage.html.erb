@@ -1,2 +1,8 @@
 <h1>Hashtag</h1>
 <p data-role='description'>Search through Twitter!</p>
+
+<%= form_for :twitter, url: search_path do |f| %>
+  <%= f.label :search %>
+  <%= f.text_field :search %>
+  <%= f.submit "Search" %>
+<% end %>

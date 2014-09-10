@@ -8,8 +8,10 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'high_voltage'
+gem 'twitter'
 
 group :test, :development do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'pry'
 end
