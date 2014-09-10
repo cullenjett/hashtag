@@ -1,6 +1,6 @@
 class SearchesController < ApplicationController
   def show
-    @tweets = TwitterClient.new.search("test search term").take(15)
+    @tweets = TwitterClient.new.search("##{params[:id]}").take(15)
   end
 
   def create
