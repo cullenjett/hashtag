@@ -15,3 +15,7 @@ group :test, :development do
   gem 'capybara'
   gem 'pry'
 end
+
+group :test do
+  gem 'bourne'
+end
